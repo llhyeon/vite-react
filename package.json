@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "start": "npm run dev --open",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "private": true,
   "type": "module",
   "name": "likelion-vite-react",
@@ -8,5 +14,8 @@
     "node": ">=22.0.0",
     "npm": ">=9,0,0",
     "vscode": "^1.22.0"
+  },
+  "devDependencies": {
+    "vite": "6.0.7"
   }
 }
