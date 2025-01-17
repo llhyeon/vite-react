@@ -9,6 +9,10 @@ const viteConfig = defineConfig({
     host: "localhost",
     port: 8080,
   },
+  css: {
+    // 파일 소스맵 명시
+    devSourcemap: true,
+  },
 });
 
 export default viteConfig;
