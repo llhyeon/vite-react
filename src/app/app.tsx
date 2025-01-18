@@ -1,7 +1,10 @@
 import './app.css';
 
 function App() {
-  return <div className="app">hello</div>;
+  const data = {
+    name: 'test',
+  };
+  return <div className="app">{data.name}</div>;
 }
 
 export default App;
